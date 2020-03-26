@@ -1,0 +1,122 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+h1 {
+  text-align: center;
+  margin-top: 100px;
+  color: rgb(68, 68, 68);
+}
+
+form {
+  text-align: center;
+  margin: auto;
+  margin-top: 70px;
+  width: 50%;
+  border: 3px solid rgb(184, 184, 184);
+  border-radius: 50px;;
+  display: flex;
+  flex-direction: column;
+  padding: 60px;
+  background-color: aliceblue;
+  color: rgb(70, 70, 70);
+}
+
+button {
+  color: rgb(41, 150, 184);
+  font-size: large;
+  border: 4px solid rgb(48, 159, 192);
+  border-radius: 12px;
+  background-color: #61dafb;
+  width: 20%;
+  margin: auto;
+  padding: 15px;
+  transition-duration: .5s;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+button:hover {
+  color: white;
+  border: 4px solid rgb(72, 249, 255);
+}
+
+.leftSpan {
+  margin-right: 30px;
+  /* border: 1px solid black; */
+}
+
+.rightSpan {
+  margin-left: 10px;
+}
+
+span {
+  color: rgb(26, 113, 139);
+}
+
+label {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 10px;
+  /* border: 1px solid black; */
+}
+
+.formInput1 {
+  /* border: 1px solid black; */
+  display: flex;
+  align-items: center;
+}
+
+.formInput2 {
+  /* border: 1px solid black; */
+  display: flex;
+  align-items: center;
+  margin-left: 5px;
+}
+
+.formInput3 {
+  /* border: 1px solid black; */
+  display: flex;
+  align-items: center;
+  margin-right: 28px;
+}
+
+.terms {
+  font-size: 14px;
+}
