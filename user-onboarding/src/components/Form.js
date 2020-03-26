@@ -14,7 +14,7 @@ export default function Form(props) {
         <span className="leftSpan">Name</span>
             <div className="formInput1">
                 <input
-                    className="inputField"
+                    className="inputField nameTest"
                     id="name"
                     type="text"
                     name="name"
@@ -30,7 +30,7 @@ export default function Form(props) {
         <span className="leftSpan">Email</span>
             <div className="formInput2">
                 <input
-                    className="inputField"
+                    className="inputField emailTest"
                     id="email"
                     type="text"
                     name="email"
@@ -47,7 +47,7 @@ export default function Form(props) {
         <span className="leftSpan">Password</span>
             <div className="formInput3">
                 <input 
-                className="inputField" 
+                className="inputField passwordTest" 
                 id="password" 
                 type="password" 
                 name="password" 
@@ -58,6 +58,7 @@ export default function Form(props) {
 
       <label htmlFor="terms" className="terms">
         <input
+          className="checkboxTest"
           type="checkbox"
           name="terms"
           checked={props.formState.terms}
@@ -68,7 +69,7 @@ export default function Form(props) {
 
       <pre>{JSON.stringify(props.post, null, 2)}</pre>
 
-      <button disabled={props.buttonDisabled}>SUBMIT</button>
+      <button className="submitTest" disabled={props.buttonDisabled}>SUBMIT</button>
 
     </form>
   );
